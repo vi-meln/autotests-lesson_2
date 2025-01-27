@@ -4,6 +4,7 @@ import datetime
 from fastapi import FastAPI
 from fastapi_pagination import Page, add_pagination, paginate
 from src.models.User import User
+from src.models.UserList import UserList
 from src.models.Status import Status
 
 app = FastAPI()
